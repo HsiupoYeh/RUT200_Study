@@ -65,4 +65,5 @@
   + 初次登入會強制要求改密碼，密碼規範:
     + A password of minimum 8 characters, at least one uppercase letter, one lowercase letter and one number is accepted.
     + 所以開發階段密碼改為:機器背後的WIFI SSID加上預設PASSWORD。例如背後寫WIFI SSID=「RUT200_7974」，PASSWORD=「admin01」，新密碼就是「RUT200_7974admin01」。
-+ 效能好像有點爛，操作realtime data 的頁面會當機重開
++ 效能好像有點爛，操作realtime data 的頁面會當機重開。
++ 一律使用ADVANCED模式，也就是右上角MODE要顯示「ADVANCED」，若顯示BASIC就點擊一下「BASIC」就會切換為「ADVANCED」。
