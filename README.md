@@ -51,8 +51,10 @@
   + 開機的時候:
     + 全部恆亮
     + 2G,3G,4G均滅，#1,#2,#3,#4,#5一起慢閃(一秒一次亮暗) -> 開機約60秒。
-    + 2G,3G,4G輪播，#1,#2,#3,#4,#5均滅
-    + 有插SIM卡的狀況下。2G,3G,4G一起慢閃(一秒一次亮暗)
+    + #1,#2,#3,#4,#5均滅，2G,3G,4G有燈號閃爍如下:
+      + 沒插SIM卡的狀況下:
+        + 2G亮,3G滅,4G滅 -> 2G滅,3G亮,4G亮，慢閃(一秒一次亮暗) -> 約11秒。
+        + 2G亮,3G亮,4G亮 -> 2G滅,3G滅,4G滅，慢閃(一秒一次亮暗) -> ???秒，之後重開機???。
 + 如果有必要，先回復原廠設定。
   + 用迴紋針長按天線旁的RESET按鈕超過五秒後放開(大概按著十秒)，系統將回復出廠設定。
   + 2G,3G,4G,#1,#2,#3,#4,#5
@@ -60,4 +62,4 @@
   + 看密碼太麻煩，所以改用LAN連線。LAN是右邊數來第二個孔，比較靠近中間SIM卡的孔。
   + 接上之後，預設的區域網路為192.168.1.x。路由器是192.168.1.1。
   + A password of minimum 8 characters, at least one uppercase letter, one lowercase letter and one number is accepted.
-  + 所以密碼改為:機器背後的WIFI SSID加上預設PASSWORD。例如背後寫WIFI SSID=「RTU200_7974」，PASSWORD=「admin01」，新密碼就是「RTU200_7974admin01」。
+  + 所以密碼改為:機器背後的WIFI SSID加上預設PASSWORD。例如背後寫WIFI SSID=「RUT200_7974」，PASSWORD=「admin01」，新密碼就是「RUT200_7974admin01」。
