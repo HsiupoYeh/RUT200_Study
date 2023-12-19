@@ -61,5 +61,7 @@
   + 如果成功，等重開機完後會看到熟悉的SSID，可以用機身上的密碼登入。喵的不知道為什麼一定要用WIFI登入。
   + 看密碼太麻煩，所以改用LAN連線。LAN是右邊數來第二個孔，比較靠近中間SIM卡的孔。
   + 接上之後，預設的區域網路為192.168.1.x。路由器是192.168.1.1。
-  + A password of minimum 8 characters, at least one uppercase letter, one lowercase letter and one number is accepted.
-  + 所以密碼改為:機器背後的WIFI SSID加上預設PASSWORD。例如背後寫WIFI SSID=「RUT200_7974」，PASSWORD=「admin01」，新密碼就是「RUT200_7974admin01」。
+  + 路由器管理頁面登入帳號為:admin，機身上有寫。
+  + 初次登入會強制要求改密碼，密碼規範:
+    + A password of minimum 8 characters, at least one uppercase letter, one lowercase letter and one number is accepted.
+    + 所以開發階段密碼改為:機器背後的WIFI SSID加上預設PASSWORD。例如背後寫WIFI SSID=「RUT200_7974」，PASSWORD=「admin01」，新密碼就是「RUT200_7974admin01」。
