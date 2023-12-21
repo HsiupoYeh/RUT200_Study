@@ -67,7 +67,7 @@
     + 所以開發階段密碼改為:機器背後的WIFI SSID加上預設PASSWORD。例如背後寫WIFI SSID=「RUT200_7974」，PASSWORD=「admin01」，新密碼就是「RUT200_7974admin01」。
 + 效能好像有點爛，操作realtime data 的頁面會當機重開。
 + 一律使用ADVANCED模式，也就是右上角MODE要顯示「ADVANCED」，若顯示BASIC就點擊一下「BASIC」就會切換為「ADVANCED」。
-+ 確認韌體版本，這份文件是在｢RUT2M_R_00.07.02.3」版本下操作。
++ 確認韌體版本，這份文件是一開始在｢RUT2M_R_00.07.02.3」版本下操作。
 + 插入SIM卡後，唯一要改變的就是把pin碼改為0000。在「NETWORK>MOBILE>GENERAL」裡的「SIM CARD SETTINGS」的「PIN」設為「0000」
 
 ```
