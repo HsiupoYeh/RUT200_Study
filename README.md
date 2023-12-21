@@ -70,4 +70,7 @@
 + 確認韌體版本，這份文件是在｢RUT2M_R_00.07.02.3」版本下操作。
 + 插入SIM卡後，唯一要改變的就是把pin碼改為0000。在「NETWORK>MOBILE>GENERAL」裡的「SIM CARD SETTINGS」的「PIN」設為「0000」
 
-+ echo "*/2 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_7974/write_log.php?value01=uptime' > /tmp/cmd.sh && echo -n $(cat /proc/uptime | awk '{print $1}') >> /tmp/cmd.sh && echo -n 'sec' >> /tmp/cmd.sh && sh /tmp/cmd.sh" > /etc/crontabs/root
+```
+echo "*/2 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_7974/write_log.php?value01=uptime' > /tmp/cmd.sh && echo -n \$(cat /proc/uptime | awk '{print \$1}') >> /tmp/cmd.sh && echo -n 'sec' >> /tmp/cmd.sh && sh /tmp/cmd.sh" > /etc/crontabs/root
+
+```
