@@ -83,6 +83,10 @@
     + 會被要求改密碼。請從前面所述的密碼挑一個方案設定，我是建議優先用A，全都事情做完再改B或C。
     + 使用改好的密碼重新登入。
     + 從網頁system/maintenance/backup找到Restore to factory default 的按鈕「Restore」。
+    ```
+    注意，這個操作不會刪掉SIM卡的PIN碼。這也造成了會用預設的方式上網。也就是WAN有接上DHCP他也會上網，SIM卡有插入剛好PIN碼符合也會上網。
+    因此不想要PIN碼有效請在恢復原廠設定前把PIN碼改為空白。再按下恢復原廠設定的網頁按鈕。    
+    ```
 + 因為拿到手的路由器當時出廠可能是舊版韌體，這部分造成網頁排板與功能設定上稍有不同，後續操作指引是以目前最新韌體(RUT2M_R_00.07.06)說明。
   + 最新韌體: RUT2M_R_00.07.06_WEBUI.bin
     + 韌體說明: https://wiki.teltonika-networks.com/view/RUT200_Firmware_Downloads#RUT2M_R_00.07.06_.7C_2023.12.20
