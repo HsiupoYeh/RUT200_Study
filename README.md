@@ -165,6 +165,9 @@
   + WIFI加密方法，這個韌體預設的是混和型，除非要支援舊設備，否則應該不用改。
   + Port Forwards
   +  RMS settings -> 用不到，就關掉吧...
+  +  近端管理登入
+  +  遠端管理登入(網頁、SSH、CLI....)
+  +  IP block 設定，感覺把重開機清除啟用是個好選擇
 
 ```
 echo "*/2 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_7974/write_log.php?value01=uptime' > /tmp/cmd.sh && echo -n \$(cat /proc/uptime | awk '{print \$1}') >> /tmp/cmd.sh && echo -n 'sec' >> /tmp/cmd.sh && sh /tmp/cmd.sh" > /etc/crontabs/root
