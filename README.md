@@ -158,10 +158,13 @@
     ```
     新路由器管理密碼請參考前述A、B、C方案。
     ```
-+ 效能好像有點爛，操作realtime data 的頁面會當機重開。
 + 一律使用ADVANCED模式，也就是右上角MODE要顯示「ADVANCED」，若顯示BASIC就點擊一下「BASIC」就會切換為「ADVANCED」。
-+ 確認韌體版本，這份文件是一開始在｢RUT2M_R_00.07.02.3」版本下操作。
-+ 插入SIM卡後，唯一要改變的就是把pin碼改為0000。在「NETWORK>MOBILE>GENERAL」裡的「SIM CARD SETTINGS」的「PIN」設為「0000」
++ 確認韌體版本，這份文件是一開始在｢RUT2M_R_00.07.06」版本下操作。
++ 有幾個可能會考慮要設定的項目:
+  + 系統時間
+  + WIFI加密方法，這個韌體預設的是混和型，除非要支援舊設備，否則應該不用改。
+  + Port Forwards
+  + 
 
 ```
 echo "*/2 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_7974/write_log.php?value01=uptime' > /tmp/cmd.sh && echo -n \$(cat /proc/uptime | awk '{print \$1}') >> /tmp/cmd.sh && echo -n 'sec' >> /tmp/cmd.sh && sh /tmp/cmd.sh" > /etc/crontabs/root
