@@ -169,6 +169,7 @@
   +  遠端管理登入(網頁、SSH、CLI....)
   +  IP block 設定，感覺把重開機清除啟用是個好選擇
   +  排程工作
+  +  學會uci命令
 
 ```
 echo "*/2 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_7974/write_log.php?value01=uptime' > /tmp/cmd.sh && echo -n \$(cat /proc/uptime | awk '{print \$1}') >> /tmp/cmd.sh && echo -n 'sec' >> /tmp/cmd.sh && sh /tmp/cmd.sh" > /etc/crontabs/root
