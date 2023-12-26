@@ -154,7 +154,7 @@
   + 路由器管理頁面登入帳號為:admin，機身上有寫。
   + 初次登入會強制要求改密碼，密碼規範:
     + A password of minimum 8 characters, at least one uppercase letter, one lowercase letter and one number is accepted.
-    + 所以開發階段密碼改為:機器背後的WIFI SSID加上預設PASSWORD。例如背後寫WIFI SSID=「RUT200_7974」，PASSWORD=「admin01」，新密碼就是「RUT200_7974admin01」。
+    + 採用A方案:開發階段修改密碼為:「RUT200_」+「admin01」=「RUT200_admin01」
     ```
     新路由器管理密碼請參考前述A、B、C方案。
     ```
