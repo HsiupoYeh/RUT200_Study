@@ -175,3 +175,6 @@
 echo "*/2 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_7974/write_log.php?value01=uptime' > /tmp/cmd.sh && echo -n \$(cat /proc/uptime | awk '{print \$1}') >> /tmp/cmd.sh && echo -n 'sec' >> /tmp/cmd.sh && sh /tmp/cmd.sh" > /etc/crontabs/root
 
 ```
+
++ 設定DHCP綁定裝置靜態IP:
+  + 「STATUS」>「Network」>「LAN」，找到「DHCP Leases」，從清單中按下「Create static」。
