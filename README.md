@@ -178,3 +178,4 @@ echo "*/2 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_7974/write_log.p
 
 + 設定DHCP綁定裝置靜態IP:
   + 「STATUS」>「Network」>「LAN」，找到「DHCP Leases」，從清單中按下「Create static」。
+  + 或在「Network」>「DHCP」>「Static Leases」進行設定。也可配合兩者快速操作。
