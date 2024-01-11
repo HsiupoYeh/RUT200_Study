@@ -179,4 +179,7 @@ echo "*/2 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_7974/write_log.p
 + 設定DHCP綁定裝置靜態IP:
   + 「STATUS」>「Network」>「LAN」，找到「DHCP Leases」，從清單中按下「Create static」。這裡也等於在看連線中的用戶清單。
   + 或在「Network」>「DHCP」>「Static Leases」進行設定。也可配合兩者快速操作。
-+ 設定Port Forword http://211.21.102.70:26200/
++ 設定Port Forword:
+  + 在「Network」>「Firewall」>「Port Forwards」進行設定。
+  + 目標: http://211.21.102.70:26200/
+
