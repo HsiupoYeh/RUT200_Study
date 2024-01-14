@@ -179,6 +179,15 @@
 echo "*/2 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_7974/write_log.php?value01=uptime' > /tmp/cmd.sh && echo -n \$(cat /proc/uptime | awk '{print \$1}') >> /tmp/cmd.sh && echo -n 'sec' >> /tmp/cmd.sh && sh /tmp/cmd.sh" > /etc/crontabs/root
 
 ```
+```
+curl http://cgrg.synology.m 1>log.txt 2> /dev/null
+```
+
+```
+if [ $(curl http://cgrg.synology.me/CGRG 1>log.txt 2> /dev/null)==0 ]; then echo "Job OK!"; fi
+if [ $(curl http://cgrg.synology.m 1>log.txt 2> /dev/null)==0 ]; then echo "Job OK!"; fi
+```
+
 
 + 設定DHCP綁定裝置靜態IP:
   + 「STATUS」>「Network」>「LAN」，找到「DHCP Leases」，從清單中按下「Create static」。這裡也等於在看連線中的用戶清單。
