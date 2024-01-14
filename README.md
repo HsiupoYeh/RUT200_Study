@@ -25,6 +25,9 @@
   + Operating system	RutOS (OpenWrt based Linux OS)
   + Input voltage range	9 – 30 VDC, reverse polarity protection, surge protection >33 VDC 10us max
   + Power consumption	< 6.5 W Max
+    + 測試資訊可參考: https://wiki.teltonika-networks.com/view/RUT200_Power_Consumption
+    + 使用9V最省電，電壓越高越不省電。可見內建支援9-30V是降壓到9V，轉換有耗損，但差異應該算小。
+    + 待機大約1.31W(12V109mA)，高負載可達3.82W(12V318mA)。
   + SIM	1 x SIM slot (Mini SIM – 2FF), 1.8 V/3 V, external SIM holder
   + Antennas	2 x SMA for LTE, 1 x RP-SMA for WiFi antenna connectors
   + Operating temperature	-40 °C to 75 °C
