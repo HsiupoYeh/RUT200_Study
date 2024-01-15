@@ -179,6 +179,14 @@
 echo "*/2 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_7974/write_log.php?value01=uptime' > /tmp/cmd.sh && echo -n \$(cat /proc/uptime | awk '{print \$1}') >> /tmp/cmd.sh && echo -n 'sec' >> /tmp/cmd.sh && sh /tmp/cmd.sh" > /etc/crontabs/root
 
 ```
+echo "" > /etc/crontabs/root
+
+
+```
+curl https://cgrg.synology.me/RUT200_7974/write_log.php?value01=%7B%22ABC%22:%22123%22%7D
+```
+
+
 ```
 curl http://cgrg.synology.m 1>log.txt 2> /dev/null
 ```
