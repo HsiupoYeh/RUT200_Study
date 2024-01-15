@@ -176,11 +176,15 @@
   +  學會gsmctl命令 (https://wiki.teltonika-networks.com/view/AT_Commands)
 
 ```
-echo "*/2 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_7974/write_log.php?value01=uptime' > /tmp/cmd.sh && echo -n \$(cat /proc/uptime | awk '{print \$1}') >> /tmp/cmd.sh && echo -n 'sec' >> /tmp/cmd.sh && sh /tmp/cmd.sh" > /etc/crontabs/root
+echo "1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_7974/write_log.php?value01=%7B%22uptime_sec%22:%22' > /tmp/cmd.sh && echo -n \$(cat /proc/uptime | awk '{print \$1}') >> /tmp/cmd.sh && echo -n '%22%7D' >> /tmp/cmd.sh && sh /tmp/cmd.sh" > /etc/crontabs/root
 
 ```
 echo "" > /etc/crontabs/root
 
+```
+1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59 * * * * root  CMD1
+0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58 * * * * root  CMD1
+```
 
 ```
 curl https://cgrg.synology.me/RUT200_7974/write_log.php?value01=%7B%22ABC%22:%22123%22%7D
