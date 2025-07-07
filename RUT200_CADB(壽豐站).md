@@ -21,7 +21,7 @@
   + PASSWORD=Re31HqXm
 
 + 電信業者
-  + 查看: http://192.168.1.1/status/network/mobile/1-1
+  + 查看「Status」>「Network」>「Mobile」: http://192.168.1.1/status/network/mobile/1-1
     ```
     Mobile country code  466  -> 466=台灣 
     Mobile network code  89  -> 89=台灣之星
