@@ -1,4 +1,4 @@
-# RUT200_C85E
+# RUT200_CADB
 + 更新韌體至RUT2M_R_00.07.06
   + 拿到機器預載的是RUT2M_R_00.07.04.5
   + 不要插SIM卡更新韌體比較順
@@ -34,3 +34,23 @@
     + IP改為192.168.40.1
     + WAN AS LAN設定為ON
     + SAVE & APPLY 
+
+### 管理員密碼設定
++ 方案A
+
+### SIM卡設定 (Network > Mobile > General)
++ 用固定IP網卡，211.21.102.67。
++ PIN碼=0000
++ 2025-07-07: 給MT壽豐站使用 
+
+### RMS設定 (Services > Cloud Solutions > RMS)
++ 關閉
+
+### Date & Time設定 (System > Administration > Date & Time)
++ 時區為台北
+
+### 遠端訪問路由器 (System > Administration > Access Control)
++ 開啟遠端HTTP
+  
+### WAN AS LAN (Network > LAN)
++ 啟用
