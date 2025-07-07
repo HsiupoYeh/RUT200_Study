@@ -24,7 +24,7 @@
   + 查看「Status」>「Network」>「Mobile」: http://192.168.1.1/status/network/mobile/1-1
     ```
     Mobile country code  466  -> 466=台灣 
-    Mobile network code  89  -> 89=台灣之星
+    Mobile network code  92  -> 92=中華電信
     ```
 
 + 修改LAN設定
