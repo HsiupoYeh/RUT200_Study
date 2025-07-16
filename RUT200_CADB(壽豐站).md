@@ -54,3 +54,13 @@
   
 ### WAN AS LAN (Network > LAN)
 + 啟用
+
+
+### DHCP (Network > DHCP > Static Lease)
++ 建議先從「Status > Network > LAN」查看區域網路發佈IP位置與裝置清單來設定設備。
++ 把ESP32設定靜態IP: 192.168.40.11
+
+### VPN (Service > VPN)
++ L2TP/IPsec
+  + L2TP:
+ 
