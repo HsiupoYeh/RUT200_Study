@@ -82,6 +82,7 @@
     + 從「Add new instance」進行設定 (只能有一個instance)
     + New configuration name: IPsecVPN
     + 按下「Add」
+    + Enable切換成ON
     + Pre shared key* : 45002931
     + Type : Transport
     + Bind to : L2TPVPN
