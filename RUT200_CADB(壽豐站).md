@@ -57,8 +57,19 @@
 
 
 ### DHCP (Network > DHCP > Static Lease)
+
+
+### DHCP綁定 (Network > DHCP > Static Leases)
 + 建議先從「Status > Network > LAN」查看區域網路發佈IP位置與裝置清單來設定設備。
 + 把ESP32設定靜態IP: 192.168.40.11
++ 將ESP32綁好IP後再設定port forwards
+
+### Port Forwards (Network > Firewall >Port Forwards)
++ ESP32_SSH (22)
++ NAS_rsync (873)
++ NAS_DSM_HTTP (5000) 
++ NAS_DSM_HTTPS (5001)
+
 
 ### VPN (Service > VPN)
 + L2TP/IPsec
