@@ -70,7 +70,7 @@
 + L2TP/IPsec
   + L2TP:
     + 從「Add new instance」進行設定 (只能有一個instance)
-    + New configuration name: L2TP_VPN
+    + New configuration name: L2TPVPN
     + Role: Server
     + 按下「Add」
     + Enable切換成ON
