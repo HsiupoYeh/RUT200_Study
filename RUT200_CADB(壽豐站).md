@@ -69,4 +69,20 @@
 ### VPN (Service > VPN)
 + L2TP/IPsec
   + L2TP:
+    + 從「Add new instance」進行設定 (只能有一個instance)
+    + New configuration name: L2TP_VPN
+    + Role: Server
+    + 按下「Add」
+    + Enable切換成ON
+    + User 按下 Add
+    + Username: cgrg
+    + Password: 45002931
+    + Save & Apply
+  + IPsec:
+    + 從「Add new instance」進行設定 (只能有一個instance)
+    + New configuration name: IPsecVPN
+    + Role: Server
+    + Pre shared key
+
+User
  
