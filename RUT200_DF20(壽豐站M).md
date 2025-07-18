@@ -72,6 +72,7 @@
 + 找到目標RUT200的SSID。
 + 使用其WIFI密碼登入。
 + 按下「Save & Apply」。
++ 接著可能要維持預設值按下一兩次「Save & Apply」。
 
 ### 設定中繼模式參數(Network > Wireless >Relayd)
 + Enabled設為ON
