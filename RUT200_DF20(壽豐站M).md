@@ -42,10 +42,8 @@
   + 從裡面找到「relay_configuration.tar.gz」，只需要上傳此檔案進行安裝。
   + 安裝完畢請重開路由器。
 
-
 ### 遠端訪問路由器 (System > Administration > Access Control)
 + 開啟遠端HTTP
   
 ### WAN AS LAN (Network > LAN)
-+ 要確保前面的設定都生效才能設定。
 + 啟用
