@@ -30,3 +30,12 @@
 ### RMS設定 (Services > Cloud Solutions > RMS)
 + 修改參數:
   + Connection type: Disable
+
+### Date & Time設定 (System > Administration > Date & Time)
++ 時區為台北
+
+### 遠端訪問路由器 (System > Administration > Access Control)
++ 開啟遠端HTTP
+  
+### WAN AS LAN (Network > LAN)
++ 啟用
