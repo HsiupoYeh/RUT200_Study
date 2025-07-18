@@ -70,3 +70,5 @@
 + Wireless interface設為wifi1
 + 按下「Save & Apply」。
 
+### 關閉DHCP伺服器(Network > LAN)
++ 關閉
