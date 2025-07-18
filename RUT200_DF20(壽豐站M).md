@@ -99,5 +99,13 @@
 但是直接連到主路由器的用戶，雖然也是配到192.168.40.x，但卻無法訪問192.168.1.1。
 ```
 
-### 設定主路由器的靜態IP
-+ 用主路由器的DHCP綁定功能設定。
+### 設定主路由器的DHCP綁定 (Network > DHCP > Static Leases)
++ 記得，是設定192.168.40.1這台路由器。
++ 建議先從「Status > Network > LAN」查看區域網路發佈IP位置與裝置清單來設定設備。
++ 原本已經把一個ESP32設定靜態IP: 192.168.40.11
++ 且也已經把一個將ESP32綁好IP後再設定port forwards
++ 第二台ESP32也用相同邏輯設定IP與port forwards，但IP將是192.168.40.12
++ 中繼路由器(本案例就是RUT200_DF20)也綁定靜態IP
+
+### Port Forwards (Network > Firewall >Port Forwards)
++ ESP32_HTTP (26200->80)
