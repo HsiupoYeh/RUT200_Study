@@ -57,3 +57,9 @@
   + 直接下載連結位置: https://firmware.teltonika-networks.com/7.6/RUT2M/RUT2M_R_00.07.06_Packages.tar.gz
   + 從裡面找到「relay_configuration.tar.gz」，只需要上傳此檔案進行安裝。
   + 安裝完畢請重開路由器。
+
+
+### 設定Wifi用戶端(Network > Wireless > SSIDs)
++ 按下「Scan 2.4GHz」
++ 找到目標RUT200的SSID。
++ 使用其WIFI密碼登入。
