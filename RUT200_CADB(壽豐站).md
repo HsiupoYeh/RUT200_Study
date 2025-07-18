@@ -8,7 +8,7 @@
 
 + 預設資訊:
   + WIFI SSID=RUT200_CADB
-  + WIFI PASSWORD=6DJm8d3
+  + WIFI PASSWORD=u6DJm8d3
   + USERNAME=admin
   + PASSWORD=Re31HqXm
 
