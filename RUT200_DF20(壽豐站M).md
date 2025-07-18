@@ -34,8 +34,14 @@
 ### Date & Time設定 (System > Administration > Date & Time)
 + 時區為台北
 
+### 上網並安裝套件
++ 使用WAN PORT或使用SIM卡
++ 
+
+
 ### 遠端訪問路由器 (System > Administration > Access Control)
 + 開啟遠端HTTP
   
 ### WAN AS LAN (Network > LAN)
++ 要確保前面的設定都生效才能設定。
 + 啟用
