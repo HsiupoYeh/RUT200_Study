@@ -90,5 +90,5 @@
     + Bind to : L2TPVPN
     + Save & Apply
 
-User
- 
+### 橋接
+https://wiki.teltonika-networks.com/view/RUTOS_relay_/_Wi-Fi_extender_/_repeater_/_bridge_configuration
