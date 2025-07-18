@@ -34,6 +34,22 @@
 ### Date & Time設定 (System > Administration > Date & Time)
 + 時區為台北
 
+### 遠端訪問路由器 (System > Administration > Access Control)
++ 開啟遠端HTTP
+  
+### WAN AS LAN (Network > LAN)
++ 啟用
+
+### 中繼的事前準備(確認主路由器資訊)
++ 確認主路由器可上網。例如: 4G上網。
++ 確認主路由器的LAN IP。例如:192.168.x.1。目前選擇x=40
++ 確認主路由器的SSID。
++ 確認主路由器的PASSWORD。
++ 確認主路由器的LAN IP配置規劃:
+  + 主路由器本身: 192.168.x.1
+  + 第一台中繼路由器: 192.168.x.2
+  + ESP32裝置使用範圍: 192.168.x.11~20
+  
 ### 安裝中繼(Relay Configuration)套件
 + 安裝了才會有需要的設定頁面
 + 使用上傳檔案的方式安裝，檔案下載位置:
@@ -41,9 +57,3 @@
   + 直接下載連結位置: https://firmware.teltonika-networks.com/7.6/RUT2M/RUT2M_R_00.07.06_Packages.tar.gz
   + 從裡面找到「relay_configuration.tar.gz」，只需要上傳此檔案進行安裝。
   + 安裝完畢請重開路由器。
-
-### 遠端訪問路由器 (System > Administration > Access Control)
-+ 開啟遠端HTTP
-  
-### WAN AS LAN (Network > LAN)
-+ 啟用
