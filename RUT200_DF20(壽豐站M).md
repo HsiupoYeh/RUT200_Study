@@ -20,7 +20,7 @@
 ### SIM卡設定 (Network > Mobile > General)  
 + 這台不裝SIM卡，但SIM卡設定照樣要設。
 + 修改參數:  
-  + Mobile->General->SIM Card Settings:
+  + SIM Card Settings:
     + Deny data roaming: off
     + VoLTE: off
     + Network type: 4G only
