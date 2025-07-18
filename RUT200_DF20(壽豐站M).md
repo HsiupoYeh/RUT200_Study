@@ -22,3 +22,6 @@
   + WIFI PASSWORD=b6W0TfLk
   + USERNAME=admin
   + PASSWORD=t3N9Azu2
+
+### 管理員密碼設定
++ 方案A
