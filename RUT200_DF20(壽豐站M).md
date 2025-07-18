@@ -62,4 +62,11 @@
 + 按下「Scan 2.4GHz」
 + 找到目標RUT200的SSID。
 + 使用其WIFI密碼登入。
-+ 按下「Save & Apply」
++ 按下「Save & Apply」。
+
+### 設定中繼模式參數(Network > Wireless >Relayd)
++ Enabled設為ON
++ Interface設為lan
++ Wireless interface設為wifi1
++ 按下「Save & Apply」。
+
