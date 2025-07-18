@@ -34,9 +34,13 @@
 ### Date & Time設定 (System > Administration > Date & Time)
 + 時區為台北
 
-### 上網並安裝套件
-+ 使用WAN PORT或使用SIM卡
-+ 
+### 安裝中繼(Relay Configuration)套件
++ 安裝了才會有需要的設定頁面
++ 使用上傳檔案的方式安裝，檔案下載位置:
+  + https://wiki.teltonika-networks.com/view/RUT200_Package_Downloads#RUT2M_R_00.07.06
+  + 直接下載連結位置: https://firmware.teltonika-networks.com/7.6/RUT2M/RUT2M_R_00.07.06_Packages.tar.gz
+  + 從裡面找到「relay_configuration.tar.gz」，只需要上傳此檔案進行安裝。
+  + 安裝完畢請重開路由器。
 
 
 ### 遠端訪問路由器 (System > Administration > Access Control)
