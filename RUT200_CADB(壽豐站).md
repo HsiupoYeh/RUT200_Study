@@ -55,7 +55,7 @@
 + 將ESP32綁好IP後再設定port forwards
 
 ### Port Forwards (Network > Firewall >Port Forwards)
-+ ESP32_11_HTTP (211.21.102.67:26200->192.168.40.11:80)
++ ESP32_HTTP (211.21.102.67:26200->192.168.1.11:80)
 
 
 
