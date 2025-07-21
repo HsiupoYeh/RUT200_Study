@@ -49,23 +49,33 @@
 ### WAN AS LAN (Network > LAN)
 + 啟用
 
-### 改LAN設定 (Network > LAN)
-  + BASIC模式下
-  + http://192.168.1.1/network/lan
-  + 在lan後面按下edit
-    + IP改為192.168.40.1
-    + WAN AS LAN設定為ON
-    + SAVE & APPLY 
-
 ### DHCP綁定 (Network > DHCP > Static Leases)
 + 建議先從「Status > Network > LAN」查看區域網路發佈IP位置與裝置清單來設定設備。
-+ 把ESP32設定靜態IP: 192.168.40.11
++ 把ESP32設定靜態IP: 192.168.1.11
 + 將ESP32綁好IP後再設定port forwards
 
 ### Port Forwards (Network > Firewall >Port Forwards)
 + ESP32_11_HTTP (211.21.102.67:26200->192.168.40.11:80)
 
-### VPN (Service > VPN)
+
+
+### 實際測試建立連線時間
++ 主路由器，從開機到連線完成約要1分30秒。
+
+
+
+# 以下是不採用的部分
+### 改LAN設定 (Network > LAN)
++ **目前停止使用**
++ BASIC模式下
++ http://192.168.1.1/network/lan
++ 在lan後面按下edit
+  + IP改為192.168.40.1
+  + WAN AS LAN設定為ON
+  + SAVE & APPLY 
+
+### VPN (Service > VPN) 
++ **目前停止使用**
 + L2TP/IPsec
   + L2TP:
     + 從「Add new instance」進行設定 (只能有一個instance)
@@ -88,9 +98,7 @@
     + Save & Apply
 
 ### 中繼設定之參考資料
++ ** 目前停止使用**
 + https://wiki.teltonika-networks.com/view/RUTOS_relay_/_Wi-Fi_extender_/_repeater_/_bridge_configuration
 + 視需求設定中繼，例如:RUT200_DF20(壽豐站M)
 + 若有需要可進一步綁定DHCP與Port Forwards。
-
-### 實際測試建立連線時間
-+ 主路由器，從開機到連線完成約要1分30秒。
