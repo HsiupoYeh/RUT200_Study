@@ -169,7 +169,7 @@
   + Port Forwards
   +  RMS settings -> 用不到，就關掉吧...
   +  近端管理登入
-  +  遠端管理登入(網頁、SSH、CLI....)
+  +  遠端管理登入(網頁、SSH、CLI....)，此時可能不是使用admin帳號，而是要用root作為帳號。
   +  IP block 設定，感覺把重開機清除啟用是個好選擇
   +  排程工作
   +  學會uci命令 (https://wiki.teltonika-networks.com/view/UCI_command_usage)
