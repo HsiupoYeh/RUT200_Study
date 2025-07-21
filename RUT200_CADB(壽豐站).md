@@ -91,3 +91,6 @@
 + https://wiki.teltonika-networks.com/view/RUTOS_relay_/_Wi-Fi_extender_/_repeater_/_bridge_configuration
 + 視需求設定中繼，例如:RUT200_DF20(壽豐站M)
 + 若有需要可進一步綁定DHCP與Port Forwards。
+
+### 實際測試建立連線時間
++ 主路由器，從開機到連線完成約要1分30秒。
