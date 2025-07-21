@@ -116,7 +116,31 @@
   + 記得，是設定192.168.40.1這台路由器。他的WAN是192.168.1.2。
   + ESP32_HTTP (192.168.1.2:26200->192.168.40.11:80)
 
+### VPN (Service > VPN) 
++ L2TP/IPsec
+  + L2TP:
+    + 從「Add new instance」進行設定 (只能有一個instance)
+    + New configuration name: L2TPVPN
+    + Role: Server
+    + 按下「Add」
+    + Enable切換成ON
+    + User 按下 Add
+    + Username: cgrg
+    + Password: 45002931
+    + Save & Apply
+  + IPsec:
+    + 從「Add new instance」進行設定 (只能有一個instance)
+    + New configuration name: IPsecVPN
+    + 按下「Add」
+    + Enable切換成ON
+    + Pre shared key* : 45002931
+    + Type : Transport
+    + Bind to : L2TPVPN
+    + Save & Apply
 
+
+
+---
 
 # 以下是不採用的設定
 
