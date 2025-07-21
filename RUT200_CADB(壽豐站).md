@@ -57,8 +57,6 @@
 ### Port Forwards (Network > Firewall >Port Forwards)
 + ESP32_HTTP (211.21.102.67:26200->192.168.1.11:80)
 
-
-
 ### 實際測試建立連線時間
 + 主路由器，從開機到連線完成約要1分30秒。
 
