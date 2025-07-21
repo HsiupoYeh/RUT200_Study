@@ -124,6 +124,9 @@
     + Role: Server
     + 按下「Add」
     + Enable切換成ON
+    + Local IP: 192.168.40.1
+    + Remote IP range begin: 192.168.40.20
+    + Remote IP range end: 192.168.40.30
     + User 按下 Add
     + Username: cgrg
     + Password: 45002931
