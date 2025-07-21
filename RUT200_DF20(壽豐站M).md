@@ -41,6 +41,18 @@
 ### WAN AS LAN (Network > LAN)
 + 啟用
 
+### 改LAN設定 (Network > LAN)
++ BASIC模式下
++ http://192.168.1.1/network/lan
++ 在lan後面按下edit
+  + IP改為192.168.40.1
+  + WAN AS LAN設定為ON
+  + SAVE & APPLY 
+```
+注意! 至此開始，請重新取得IP，後續操作改用40網段。
+```
+
+
 # 以下是不採用的設定
 
 ### 中繼的事前準備(確認主路由器資訊)
