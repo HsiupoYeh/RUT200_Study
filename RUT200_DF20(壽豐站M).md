@@ -165,7 +165,7 @@ echo "&& echo -n \$(cat /proc/uptime | awk '{print \$1}') >> /tmp/cmd.sh && echo
 
 + 每小時偶數分鐘執行: RUT200狀態
 ```
-echo "0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_DF20/write_esp32s_log.php?esp32s_log=' > /tmp/cmd.sh && curl -s 192.168.1.11/info > /tmp/mppt_info.txt && sed -i 's/\"/%22/g' /tmp/mppt_info.txt && sed -i 's/{/%7B/g' /tmp/mppt_info.txt && sed -i 's/}/%7D/g' /tmp/mppt_info.txt && cat /tmp/mppt_info.txt | tr -d '\n' >> /tmp/cmd.sh && sh /tmp/cmd.sh" >> /etc/crontabs/root
+echo "0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_DF20/write_esp32s_log.php?esp32s_log=' > /tmp/cmd.sh && curl -s 192.168.40.11/info > /tmp/mppt_info.txt && sed -i 's/\"/%22/g' /tmp/mppt_info.txt && sed -i 's/{/%7B/g' /tmp/mppt_info.txt && sed -i 's/}/%7D/g' /tmp/mppt_info.txt && cat /tmp/mppt_info.txt | tr -d '\n' >> /tmp/cmd.sh && sh /tmp/cmd.sh" >> /etc/crontabs/root
 ```
 
 ---
