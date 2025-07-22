@@ -66,7 +66,7 @@
 cat /etc/crontabs/root
 ```
 ```
-crontabs -l
+crontab -l
 ```
 
 + 清空所有排程
