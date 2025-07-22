@@ -61,10 +61,20 @@
 + 主路由器，從開機到連線完成約要1分30秒。
 
 ### 排程
++ 查看目前排程
+```
+cat /etc/crontabs/root
+```
+```
+crontabs -l
+```
+
 + 清空所有排程
 ```
 echo "" > /etc/crontabs/root
 ```
+
+
 
 ```
 echo -n "1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_CADB/write_rut200_log.php?rut200_log=%7B%22From%22:%22RUT200%22,%22To%22:%22RemoteServer%22,%22uptime_sec%22:%22' > /tmp/cmd.sh && echo -n \$(cat /proc/uptime | awk '{print \$1}') >> /tmp/cmd.sh && echo -n '%22,%22temperature%22:%22' >> /tmp/cmd.sh && gsmctl -c > /tmp/temperature && cat /tmp/temperature | tr -d '\n' " > /etc/crontabs/root
