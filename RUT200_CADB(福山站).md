@@ -21,10 +21,11 @@
 ### SIM卡設定 (Network > Mobile > General)  
 + 這台不使用LTE上網。
 + PIN碼=0000
-+ 2025-07-07: 給MT壽豐站使用 
++ 2025-07-07: 給MT壽豐站使用，不明原因弄壞LTE模組
++ 2025-08-24: 給MT福山站使用，不使用LTE功能。
 + 修改參數:  
   + SIM Card Settings:
-    + Deny data roaming: off
+    + Deny data roaming: **on**
     + VoLTE: off
     + Network type: 4G only
     + PIN: 0000
