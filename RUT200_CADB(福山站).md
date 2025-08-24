@@ -10,6 +10,7 @@
   + WIFI PASSWORD=u6DJm8d3
   + USERNAME=admin
   + PASSWORD=Re31HqXm
++ 注意事項: 這台的LTE模組已經損壞，無法使用LTE上網。但福山站太陽能系統所在位置不能使用LTE，所以剛好留著用。
 
 ### 恢復出廠設定後，用預設密碼登入
 + 管理員密碼設定: 方案A
