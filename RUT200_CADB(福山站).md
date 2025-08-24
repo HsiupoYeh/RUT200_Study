@@ -48,9 +48,6 @@
 
 ### 遠端訪問路由器 (System > Administration > Access Control)
 + 開啟遠端HTTP
-  
-### WAN AS LAN (Network > LAN)
-+ 啟用
 
 ### DHCP綁定 (Network > DHCP > Static Leases)
 + 建議先從「Status > Network > LAN」查看區域網路發佈IP位置與裝置清單來設定設備。
