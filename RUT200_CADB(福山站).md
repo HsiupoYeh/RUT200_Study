@@ -19,7 +19,7 @@
 + 自行手動修改各項參數。而非依照Setup Wizard的順序
 
 ### SIM卡設定 (Network > Mobile > General)  
-+ 這台用固定IP網卡，211.21.102.67。
++ 這台不使用LTE上網。
 + PIN碼=0000
 + 2025-07-07: 給MT壽豐站使用 
 + 修改參數:  
@@ -36,6 +36,7 @@
   Mobile country code  466  -> 466=台灣 
   Mobile network code  92  -> 92=中華電信
   ```
++ 這台不使用LTE上網
 
 ### RMS設定 (Services > Cloud Solutions > RMS)
 + 修改參數:
