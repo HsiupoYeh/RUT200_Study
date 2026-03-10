@@ -63,8 +63,8 @@
 
 ### DHCP綁定 (Network > DHCP > Static Leases)
 + 建議先從「Status > Network > LAN」查看區域網路發佈IP位置與裝置清單來設定設備。
-+ 把ESP32設定靜態IP:???
-+ 將ESP32綁好IP後再設定port forwards
++ 把子路由器設定DHCP
++ 將子路由器綁好IP=192.168.24.2後再設定port forwards
 
 ### Port Forwards (Network > Firewall >Port Forwards)
 + ESP32_HTTP (211.21.102.67:26200->192.168.1.11:80)
