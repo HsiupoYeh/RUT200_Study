@@ -81,30 +81,4 @@
 ### 實際測試建立連線時間
 + 主路由器，從開機到連線完成約要1分30秒。
 
-### 排程
-+ 查看目前排程，兩種方法都可以試試看
-```
-cat /etc/crontabs/root
-```
-```
-crontab -l
-```
-
-+ 清空所有排程
-```
-echo "" > /etc/crontabs/root
-```
-
-+ 每小時奇數分鐘執行: RUT200狀態 (命令太長，利用echo -n 寫入不代換行字元的文字拆分兩次寫入，最後一次不需要-n)
-```
-echo -n "1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_2BD4/write_rut200_log.php?rut200_log=%7B%22From%22:%22RUT200%22,%22To%22:%22RemoteServer%22,%22uptime_sec%22:%22' > /tmp/cmd.sh " >> /etc/crontabs/root
-```
-```
-echo "&& echo -n \$(cat /proc/uptime | awk '{print \$1}') >> /tmp/cmd.sh && echo -n '%22,%22temperature%22:%22' >> /tmp/cmd.sh && gsmctl -c > /tmp/temperature && cat /tmp/temperature | tr -d '\n' >> /tmp/cmd.sh && echo -n '%22%7D' >> /tmp/cmd.sh && sh /tmp/cmd.sh " >> /etc/crontabs/root
-```
-
-+ 每小時偶數分鐘執行: RUT200狀態
-```
-echo "0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58 * * * * echo -n 'curl https://cgrg.synology.me/RUT200_2BD4/write_esp32s_log.php?esp32s_log=' > /tmp/cmd.sh && curl -s 192.168.1.11/info > /tmp/mppt_info.txt && sed -i 's/\"/%22/g' /tmp/mppt_info.txt && sed -i 's/{/%7B/g' /tmp/mppt_info.txt && sed -i 's/}/%7D/g' /tmp/mppt_info.txt && cat /tmp/mppt_info.txt | tr -d '\n' >> /tmp/cmd.sh && sh /tmp/cmd.sh" >> /etc/crontabs/root
-```
 
