@@ -232,3 +232,6 @@ if [ $(curl http://cgrg.synology.m 1>log.txt 2> /dev/null)==0 ]; then echo "Job 
   + 在「Network」>「Firewall」>「Port Forwards」進行設定。
   + 目標: http://211.21.102.70:26200/
 
+
+### FTP
++ https://help.wirelesslogic.com/hc/en-gb/articles/18991543095826-No-data-transfer-in-passive-FTP-mode
